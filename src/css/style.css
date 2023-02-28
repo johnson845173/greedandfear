@@ -285,7 +285,7 @@ body{
         position: relative;
         z-index: 1;
         background-color: rgb(22 27 34);
-        height: 65%;
+        height: 75%;
         width: 100%;
         transition: all ease-in 0.3s;
       }
@@ -427,6 +427,18 @@ body{
     }
 
     /* Vision page end */
+
+    .product_name{
+      font-size: 2.5vw;
+    }
+    .product_features{
+      font-size: 2vw;
+    }
+
+    .product_cover:hover{
+      top: 30%;
+    }
+
   }
 
   
@@ -453,6 +465,17 @@ body{
 
     .products{
       margin: 20px auto;
+    }
+
+    .product_name{
+      font-size: 2.5vh;
+    }
+    .product_features{
+      font-size: 1.8vh;
+    }
+
+    .product_cover:hover{
+      top: 30%;
     }
 
     
