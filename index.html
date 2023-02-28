@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="on_load()">
   <div class="navbar">
 
     <!-- Navbar logo -->
@@ -41,7 +41,7 @@
     </div>
   </div>
 
-  <div class="homepage">
+  <div class="homepage hidden">
     <div class="vision_motive">
       <div class="vision_text">Start Your Trading Journey With <span class="highlighted_points">Confidence</span>
         <br>And Guidance
@@ -55,7 +55,7 @@
     </div>
   </div>
 
-  <div class="welcome_page">
+  <div class="welcome_page hidden">
     <div class="welcome_msg">
       Welcome to <span class="highlighted_points">Greed And Fear</span>
     </div>
@@ -65,43 +65,49 @@
       commuity.
     </div>
     <iframe src="https://www.youtube.com/embed/UoQyF017Sq8?rel=0" title="YouTube video player" frameborder="0"
+      loading="lazy"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
   </div>
 
-  <div class="intraday">
+  <div class="intraday hidden">
     <div class="welcome_msg">
-      Check out how Your charts perfomed
+      Check out how our Charts perfomed
     </div>
     <div class="cards">
       <div class="card">
-        <div class="stockname">Stock 1</div>
-        <div class="image"><img loading="lazy" alt ="Stock1" class="result-img" src="images/intraday/apollotire.webp"></div>
+        <div class="stockname">Apollo Tyres</div>
+        <div class="image"><img loading="lazy" alt="Stock1" class="result-img" src="images/intraday/apollotire.webp"></div>
       </div>
       <div class="card">
-        <div class="stockname">Stock 2</div>
-        <div class="image"><img loading="lazy" alt ="Stock1" class="result-img" src="images/intraday/apollotire.webp"></div>
+        <div class="stockname">Crude Oil</div>
+        <div class="image"><img loading="lazy" alt="Stock1" class="result-img" src="images/intraday/crudeoil.webp"></div>
       </div>
       <div class="card">
-        <div class="stockname">Stock 3</div>
-        <div class="image"><img loading="lazy" alt ="Stock1" class="result-img" src="images/intraday/apollotire.webp"></div>
+        <div class="stockname">ITC Ltd</div>
+        <div class="image"><img loading="lazy" alt="Stock1" class="result-img" src="images/intraday/itcltd.webp"></div>
+      </div>
+      <div class="card">
+        <div class="stockname">United Breweries</div>
+        <div class="image"><img loading="lazy" alt="Stock1" class="result-img" src="images/intraday/unitedbev.webp"></div>
       </div>
     </div>
   </div>
 
-  <div class="product_container">
+  <div class="product_container hidden">
     <div class="welcome_msg">
       Check out our <span class="highlighted_points">Premium Features</span>
     </div>
     <div class="product_container_grid">
       <div class="products product1">
-
+re
       </div>
       <div class="products product2">
-        
+rtwe
       </div>
     </div>
   </div>
+  <div>hbe</div>
 
 </body>
 <script src="src/js/index.js"></script>

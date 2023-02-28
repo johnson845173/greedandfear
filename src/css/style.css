@@ -5,6 +5,30 @@
 
 body{
     background-color: rgb(13, 17, 23);
+    
+}
+
+.hidden{
+  transform: translateY(20%);
+  opacity: 0;
+}
+
+.show{
+  transform: translateY(0%);
+  transition: all ease-in 0.5s;
+  opacity: 1;
+
+}
+
+@keyframes slideinleft {
+  0% {
+      opacity: 0;
+      transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+   }
 }
 
 @media (max-width: 4000px) {
@@ -88,6 +112,10 @@ body{
       /* Entry Text Start */
 
       .homepage{
+        
+        animation: slideinleft ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
         position: relative;
         top: 100px;
         height: calc(100vh - 100px);
@@ -135,7 +163,7 @@ body{
       /* welcome page start */
 
       .welcome_page{
-        top: 90px;
+        top: 120px;
         margin: auto;
         position: relative;
         color: white;
@@ -164,7 +192,7 @@ body{
       
       .intraday{
         position: relative;
-        top: 100px;
+        top: 150px;
         color: white;
         text-align: center;
       }
@@ -216,7 +244,6 @@ body{
       .product_container{
         position: relative;
         height: 500px;
-        /* background-color: aqua; */
         text-align: center;
         color: white;
         margin: auto;
@@ -326,16 +353,26 @@ body{
       grid-template-columns: repeat(1,100%)
     }
     .vision_text{
-      font-size: 8.5vh;
-      line-height: 9vh;
+      font-size: 7vh;
+      line-height: 7vh;
     }
 
     .vision_text_small{
-      font-size: 3vh;
+      font-size: 2.5vh;
+      width: 90%;
+    }
+
+    .welcome_msg{
+      font-size: 6vw;
     }
 
     .vision_button{
         padding: 10px 30px;
+    }
+
+    iframe{
+      width: 90%;
+      margin: 30px 0px;
     }
 
     /* Vision page end */
@@ -344,8 +381,9 @@ body{
   
   @media (max-width: 450px) {
     .vision_text{
-      font-size: 12vw;
-      line-height: 14vw;
+      font-size: 14vw;
+      line-height: 15vw;
+      width: 100%;
     }
 
     .vision_text_small{
@@ -357,8 +395,15 @@ body{
       font-size: 12vw;
     }
 
-    iframe{
-      width: 95%;
+    .product_container_grid{
+      grid-template-columns: repeat(1,100%);
+      margin: 0%;
     }
+
+    .products{
+      margin: 20px auto;
+    }
+
+    
   }
 
