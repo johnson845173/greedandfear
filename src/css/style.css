@@ -353,8 +353,8 @@ body{
       grid-template-columns: repeat(1,100%)
     }
     .vision_text{
-      font-size: 7vh;
-      line-height: 7vh;
+      font-size: 8vh;
+      line-height: 9vh;
     }
 
     .vision_text_small{
@@ -380,12 +380,7 @@ body{
 
   
   @media (max-width: 450px) {
-    .vision_text{
-      font-size: 14vw;
-      line-height: 15vw;
-      width: 100%;
-    }
-
+   
     .vision_text_small{
       font-size: 5vw;
       width: 90%;
