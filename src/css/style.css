@@ -53,6 +53,11 @@ body{
         color: rgb(255, 255, 255);
         z-index: 7;
       }
+
+      .slogan{
+        width: 270px;
+        height: 80px;
+      }
     
       .navbar .nav-header .nav-logo {
         display: inline-block;
