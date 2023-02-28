@@ -380,6 +380,11 @@ body{
 
   
   @media (max-width: 450px) {
+
+    .vision_text{
+      font-size: 7.5vh;
+      line-height: 8vh;
+    }
    
     .vision_text_small{
       font-size: 5vw;
