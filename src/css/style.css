@@ -322,7 +322,8 @@ body{
         font-weight: 400;
         font-size: 15px;
         padding: 10px 20px;
-        border-radius: 25px
+        border-radius: 25px;
+        border: none;
       }
 
 
