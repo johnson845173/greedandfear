@@ -243,7 +243,7 @@ body{
 
       .product_container{
         position: relative;
-        height: 500px;
+        height: 600px;
         text-align: center;
         color: white;
         margin: auto;
@@ -252,28 +252,79 @@ body{
 
       .product_container_grid{
         display: grid;
-        margin: 70px 40px;
+        margin: 30px 40px;
         grid-template-columns: repeat(2,50%);
         grid-row: 1;
         position: relative;
       }
       
       .products{
-        
         background-color: #eee;
         margin: auto;
         width: 80%;
-        height: 300px;
+        height: 450px;
+        overflow-y: hidden;
+        border-radius: 25px;
+
       }
 
+      .product1{
+        background-image: url(../../images/background/ytbackground.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
+      .product2{
+        background-image: url(../../images/background/homepage2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .product_cover{
+        top:65%;
+        position: relative;
+        z-index: 1;
+        background-color: rgb(22 27 34);
+        height: 65%;
+        width: 100%;
+        transition: all ease-in 0.3s;
+      }
+
+      .product_cover:hover{
+        top: 35%;
+      }
+
+      .product_name{
+        position: relative;
+        padding-top: 10%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: rgb(208 223 255);
+      }
       
-
+      .product_button{
+        position: relative;
+      }
       
+      .product_features{
+        position: relative;
+        margin: 10px 30px;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
 
-  
+      }
 
-    
+      .btn2{
+        background-color: rgb(19, 115, 218);
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 10px 20px;
+        border-radius: 25px
+      }
+
 
 
   }
